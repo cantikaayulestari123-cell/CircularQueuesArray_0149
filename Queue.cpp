@@ -76,7 +76,7 @@ public:
     {
         int FRONT_Position = FRONT;
         int REAR_Position = REAR;
-    }
+    
 
     // cek apakah  antrian kosong
     if (FRONT_Position == -1)
@@ -115,9 +115,10 @@ public:
             cout << queue_array[FRONT_Position] << " ";
             FRONT_Position++;
         }
-
         cout << endl;
     }
+    }
+};
 
-}
+
 
